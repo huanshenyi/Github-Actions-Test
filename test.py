@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 import os
 
-path = "./Selenium.WebDriver.IEDriver.3.150.0/driver"
+path = "./packages/Selenium.WebDriver.IEDriver.3.150.0/driver"
 
 
 driver = webdriver.Chrome(executable_path=path)
