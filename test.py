@@ -3,7 +3,7 @@ import time
 import os
 import sys
 
-path = sys.argv[0] + "/Selenium.WebDriver.IEDriver.3.150.0/driver"
+path =  f"{sys.argv[0]}/Selenium.WebDriver.IEDriver.3.150.0/driver"
 
 
 driver = webdriver.Ie(executable_path=path)
