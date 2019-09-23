@@ -3,9 +3,10 @@ import time
 import os
 import sys
 
-path =  "D:\a\Github-Actions-Test\Github-Actions-Test\Selenium.WebDriver.IEDriver.3.150.0\driver"
+process.env.PATH = f"{process.env.PATH};{os.getcwd()}/Selenium.WebDriver.IEDriver.3.150.0/driver"
+#path =  "D:\a\Github-Actions-Test\Github-Actions-Test\Selenium.WebDriver.IEDriver.3.150.0\driver"
 
-driver = webdriver.Ie(executable_path=path)
+driver = webdriver.Ie(executable_path=process.env.PATH)
 driver.get('https://bell-face.co/')
 con_btn = driver.find_element_by_partial_link_text('（資料ダウンロード）')
 con_btn.click()
