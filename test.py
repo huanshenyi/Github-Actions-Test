@@ -3,9 +3,7 @@ import time
 import os
 import sys
 
-path =  f"{sys.argv[0]}/Selenium.WebDriver.IEDriver.3.150.0/driver"
-print(path)
-
+path =  "D:\a\Github-Actions-Test\Github-Actions-Test\Selenium.WebDriver.IEDriver.3.150.0\driver"
 
 driver = webdriver.Ie(executable_path=path)
 driver.get('https://bell-face.co/')
