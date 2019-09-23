@@ -4,6 +4,7 @@ import os
 import sys
 
 path =  f"{sys.argv[0]}/Selenium.WebDriver.IEDriver.3.150.0/driver"
+print(path)
 
 
 driver = webdriver.Ie(executable_path=path)
