@@ -3,7 +3,7 @@ import time
 import os
 import sys
 
-process.env.PATH = f"{process.env.PATH};{os.getcwd()}/Selenium.WebDriver.IEDriver.3.150.0/driver"
+#process.env.PATH = f"{process.env.PATH};{os.getcwd()}/Selenium.WebDriver.IEDriver.3.150.0/driver"
 #path =  "D:\a\Github-Actions-Test\Github-Actions-Test\Selenium.WebDriver.IEDriver.3.150.0\driver"
 
 driver = webdriver.Ie(executable_path="Selenium.WebDriver.IEDriver.3.150.0\driver\IEDriverServer.exe")
