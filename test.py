@@ -7,7 +7,7 @@ import sys
 #path =  "D:\a\Github-Actions-Test\Github-Actions-Test\Selenium.WebDriver.IEDriver.3.150.0\driver"
 
 driver = webdriver.Ie(executable_path="Selenium.WebDriver.IEDriver.3.150.0\driver\IEDriverServer.exe")
-driver.get('https://bell-face.com')
+driver.get('https://google.co.jp')
 # con_btn = driver.find_element_by_partial_link_text('（資料ダウンロード）')
 # con_btn.click()
 time.sleep(2)
